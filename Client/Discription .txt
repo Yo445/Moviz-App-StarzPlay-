@@ -1,0 +1,24 @@
+Admin:
+-Login
+-Logout
+-Add movie
+-update movie
+-Delete movie
+-List
+
+User:
+-Login
+-Logout
+-Register
+-List Movies 
+-Search Movie
+-Add Review
+
+What I use and do?
+-React.js (CRUD, Hooks, UseConext)
+-Node.js
+-Bootstrap (resposive design) 
+-Postman
+-SQL
+-Xamp
+-

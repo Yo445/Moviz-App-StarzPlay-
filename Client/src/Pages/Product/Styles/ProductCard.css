@@ -1,0 +1,43 @@
+.product-card {
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.6);
+  width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  /* margin-top: 40px; */
+}
+
+.content {
+  background-color: rgba(168, 167, 167, 0.887);
+  padding: 20px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  text-align: center;
+}
+
+.content h2,
+.content p {
+  color: white;
+  margin: 5px 0;
+}
+
+.watch-button {
+  background-color: brown;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.watch-button:hover {
+  background-color: rgb(87, 25, 25);
+}
+.link{
+  color: #fff;
+  text-decoration: none;
+}

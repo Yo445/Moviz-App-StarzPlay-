@@ -1,0 +1,26 @@
+/* ProductList.css */
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+    padding: 30px;
+    margin: 0;
+    justify-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    .product-list {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+  }
+  .home{
+    padding: 25px;
+    margin: 0;
+    justify-items: center;
+    /* background-color: #b8bcbe; */
+
+  }
+  #search{
+    justify-content: center;
+
+  }
